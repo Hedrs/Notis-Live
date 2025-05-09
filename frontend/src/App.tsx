@@ -59,7 +59,7 @@ function App() {
                 <span className=""> - Animation progress + 15 frames</span>
               </div>
               <div className="">
-                <span>{}</span>
+                <span>{timeSince(resultTime)}</span>
               </div>
             </div>
           </div>
