@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Logo from './svgComponents/LogoFolder/Logo';
 import Table from './svgComponents/TableFolder/Table';
 import { timeSince } from './lib/date-helper';
-import { LAST_UPDATE } from '@generated/lastUpdate.js';
+import { LAST_UPDATE } from '../generated/lastUpdate';
 
 function App() {
   const [openedBlocks, setOpenedBlocks] = useState<Record<string, boolean>>({

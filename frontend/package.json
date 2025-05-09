@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "node ./lib/generate-version.js",
+    "prebuild": "node ./generate-version.js",
     "build": "vite build",
     "types": "tsc --noEmit --project ./tsconfig.json",
     "lint": "eslint . --report-unused-disable-directives",
