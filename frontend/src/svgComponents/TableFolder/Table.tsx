@@ -1,6 +1,6 @@
 export default function Table() {
   return (
-    <svg width="801" height="270" viewBox="0 0 825 294" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="600" height="270" viewBox="0 0 825 294" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect y="1" width="144" height="48" fill="#22272F" />
       <rect y="50" width="144" height="48" fill="#4C566A" />
       <rect y="99" width="144" height="48" fill="#2B303B" />
