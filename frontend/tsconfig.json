@@ -1,36 +1,36 @@
 {
-	"compilerOptions": {
-		"target": "es6",
-		"useDefineForClassFields": true,
-		"lib": ["ES2020", "DOM", "DOM.Iterable"],
-		"module": "ES2020",
-		"skipLibCheck": true,
+  "compilerOptions": {
+    "target": "es6",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "System",
+    "skipLibCheck": true,
 
-		/* Bundler mode */
-		"moduleResolution": "node",
-		"allowImportingTsExtensions": false,
-		"forceConsistentCasingInFileNames": true,
-		"isolatedModules": true,
-		"moduleDetection": "force",
-		"preserveSymlinks": false,
-		"esModuleInterop": true,
-		"noEmit": false,
-		"jsx": "react-jsx",
-		"allowJs": true,
-		"composite": true,
+    /* Bundler mode */
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": false,
+    "forceConsistentCasingInFileNames": true,
+    "moduleDetection": "force",
+    "preserveSymlinks": false,
+    "esModuleInterop": true,
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "allowJs": true,
 
-		/* Linting */
-		"strict": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"noFallthroughCasesInSwitch": true,
-		"noUncheckedSideEffectImports": true,
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
 
-		"baseUrl": "./",
-		"paths": {
-			"@/*": ["src/*"]
-		}
-	},
-	"include": ["src/**/*"],
-	"exclude": ["node_modules"]
+    "outFile": "./dist/lastUpdate.js",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@generated/*": ["generated/*"]
+    }
+  },
+  "include": ["src/**/*", "generated/**/*"],
+  "exclude": ["node_modules", "dist"]
 }

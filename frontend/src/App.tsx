@@ -2,6 +2,9 @@ import styles from './index.module.scss';
 import Arrow from './svgComponents/ArrowFolder/Arrow';
 import { useState } from 'react';
 import Logo from './svgComponents/LogoFolder/Logo';
+import Table from './svgComponents/TableFolder/Table';
+import { timeSince } from './lib/date-helper';
+import { LAST_UPDATE } from '@generated/lastUpdate.js';
 
 function App() {
   const [openedBlocks, setOpenedBlocks] = useState<Record<string, boolean>>({
@@ -36,18 +39,29 @@ function App() {
     }));
   }
 
+  const resultTime = LAST_UPDATE;
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.container}>
         <Logo />
         <div className={styles.header}>
-          <div>
+          <div className="flex items-center">
+            <Table />
             <div className={styles.changed}>
-              <span className={styles.circle}></span>
+              <div className={styles.circleChanged}>
+                <span className={styles.circle}></span>
 
-              <span>Changed:</span>
+                <span>Changed:</span>
+              </div>
+              <div className={styles.taskChanged}>
+                <span className="block"> - Added a link to a new page</span>
+                <span className=""> - Animation progress + 15 frames</span>
+              </div>
+              <div className="">
+                <span>{}</span>
+              </div>
             </div>
-            <div></div>
           </div>
         </div>
         <div>
@@ -1293,7 +1307,7 @@ function App() {
                     <button onClick={() => toggleBlock('topProduct')} className={styles.point}>
                       <span className="flex items-center gap-1">
                         <Arrow newClass={openedBlocks['topProduct']} />
-                        Top Product
+                        Top Product: - 0%
                       </span>
                     </button>
                   </div>
@@ -1357,7 +1371,7 @@ function App() {
                     <span className="opacity-0">------</span>
                     <span className="opacity-15"> | </span>
                     <button className={styles.point}>
-                      <span className="ml-[25px]">List Cards</span>
+                      <span className="ml-[25px]">List Cards - 50%</span>
                     </button>
                   </div>
                   <div className="flex">
@@ -1376,7 +1390,7 @@ function App() {
                     <button onClick={() => toggleBlock('helpChat')} className={styles.point}>
                       <span className="flex items-center gap-1">
                         <Arrow newClass={openedBlocks['helpChat']} />
-                        Help Chat
+                        Help Chat: - 0%
                       </span>
                     </button>
                   </div>
@@ -1955,7 +1969,7 @@ function App() {
                 <button onClick={() => toggleBlock('searchPage')} className={styles.point}>
                   <span className="flex items-center gap-1">
                     <Arrow newClass={openedBlocks['searchPage']} />
-                    Search Page
+                    Search Page: - 0%
                   </span>
                 </button>
               </div>
@@ -2772,6 +2786,7 @@ function App() {
               ) : null}
             </>
           ) : null}
+          <div>Web site Notis</div>
         </div>
       </div>
     </div>
