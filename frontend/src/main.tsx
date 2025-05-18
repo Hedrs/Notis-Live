@@ -1,1 +1,1 @@
-export { render } from './renderer/_default.page.client';
+export { render } from './pages/_default.page.client';

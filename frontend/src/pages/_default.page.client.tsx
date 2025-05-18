@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../index.css';
 
-function render(pageContext: any) {
+export function render(pageContext: any) {
   console.log('RENDER HOOK WORKING');
   const { Page, pageProps } = pageContext;
   const container = document.getElementById('react-root')!;
@@ -16,5 +16,4 @@ function render(pageContext: any) {
   );
 }
 
-export { render };
 export default {};
