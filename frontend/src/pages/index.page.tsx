@@ -32,8 +32,26 @@ function Page() {
     cardView: false,
     notis: false,
     mainNotis: false,
-    film: false,
+    stickman: false,
     secondSeries: false,
+    createObject: false,
+    animationOfSkills: false,
+    games: false,
+    armWrestling: false,
+    writeAScriptStarts: false,
+    layout: false,
+    development: false,
+    menu: false,
+    apps: false,
+    prophet: false,
+    writeAScriptOnReactNative: false,
+    videoSite: false,
+    video: false,
+    videoMessage: false,
+    visualization: false,
+    webSite: false,
+    mainWebSite: false,
+    appsChat: false,
   });
 
   function toggleBlock(blockId: string) {
@@ -2849,14 +2867,14 @@ function Page() {
               <span className="opacity-15"> | </span>
               <span className="opacity-0">------</span>
               <span className="opacity-15"> | </span>
-              <button onClick={() => toggleBlock('film')} className={styles.point}>
+              <button onClick={() => toggleBlock('stickman')} className={styles.point}>
                 <span className="flex items-center gap-1">
-                  <Arrow newClass={openedBlocks['film']} />
-                  Film on 0%
+                  <Arrow newClass={openedBlocks['stickman']} />
+                  Stickman: - 0%
                 </span>
               </button>
             </div>
-            {openedBlocks['film'] ? (
+            {openedBlocks['stickman'] ? (
               <>
                 <div className="flex">
                   <span className="opacity-0">---</span>
@@ -2957,6 +2975,957 @@ function Page() {
                         <span className="ml-[25px]">Transformation - 0%</span>
                       </button>
                     </div>
+                    <div className="flex mt-auto">
+                      <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <button onClick={() => toggleBlock('createObject')} className={styles.point}>
+                        <span className="flex items-center gap-1">
+                          <Arrow newClass={openedBlocks['createObject']} />
+                          Create Object: - 0%
+                        </span>
+                      </button>
+                    </div>
+                    {openedBlocks['createObject'] ? (
+                      <>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Particles - 0%</span>
+                          </button>
+                        </div>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Animation Hero - 0%</span>
+                          </button>
+                        </div>
+                      </>
+                    ) : null}
+                    <div className="flex mt-auto">
+                      <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <button onClick={() => toggleBlock('animationOfSkills')} className={styles.point}>
+                        <span className="flex items-center gap-1">
+                          <Arrow newClass={openedBlocks['animationOfSkills']} />
+                          Animation of skills: - 0%
+                        </span>
+                      </button>
+                    </div>
+                    {openedBlocks['animationOfSkills'] ? (
+                      <>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Jumping - 0%</span>
+                          </button>
+                        </div>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Walkind - 0%</span>
+                          </button>
+                        </div>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Stunts - 0%</span>
+                          </button>
+                        </div>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Flying - 0%</span>
+                          </button>
+                        </div>
+                      </>
+                    ) : null}
+                    <div className="flex">
+                      <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <button className={styles.point}>
+                        <span className="ml-[25px]">New light - 0%</span>
+                      </button>
+                    </div>
+                    <div className="flex">
+                      <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <button className={styles.point}>
+                        <span className="ml-[25px]">Animation break - 0%</span>
+                      </button>
+                    </div>
+                    <div className="flex">
+                      <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <button className={styles.point}>
+                        <span className="ml-[25px]">Animation crystal - 0%</span>
+                      </button>
+                    </div>
+                    <div className="flex">
+                      <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <button className={styles.point}>
+                        <span className="ml-[25px]">Animation finish hero - 0%</span>
+                      </button>
+                    </div>
+                  </>
+                ) : null}
+              </>
+            ) : null}
+            <div className="flex mt-auto">
+              <span className="opacity-0">---</span>
+              <span className="opacity-15"> | </span>
+              <span className="opacity-0">------</span>
+              <span className="opacity-15"> | </span>
+              <button onClick={() => toggleBlock('armWrestling')} className={styles.point}>
+                <span className="flex items-center gap-1">
+                  <Arrow newClass={openedBlocks['armWrestling']} />
+                  Arm Wrestling: - 0%
+                </span>
+              </button>
+            </div>
+            {openedBlocks['armWrestling'] ? (
+              <>
+                <div className="flex mt-auto">
+                  <span className="opacity-0">---</span>
+                  <span className="opacity-15"> | </span>
+                  <span className="opacity-0">------</span>
+                  <span className="opacity-15"> | </span>
+                  <span className="opacity-0">------</span>
+                  <span className="opacity-15"> | </span>
+                  <span className="opacity-0">------</span>
+                  <span className="opacity-15"> | </span>
+                  <button onClick={() => toggleBlock('writeAScriptStarts')} className={styles.point}>
+                    <span className="flex items-center gap-1">
+                      <Arrow newClass={openedBlocks['writeAScriptStarts']} />
+                      Write a script starts: - 0%
+                    </span>
+                  </button>
+                </div>
+                {openedBlocks['writeAScriptStarts'] ? (
+                  <>
+                    <div className="flex mt-auto">
+                      <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <button onClick={() => toggleBlock('layout')} className={styles.point}>
+                        <span className="flex items-center gap-1">
+                          <Arrow newClass={openedBlocks['layout']} />
+                          Layout: - 0%
+                        </span>
+                      </button>
+                    </div>
+                    {openedBlocks['layout'] ? (
+                      <>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Menu - 0%</span>
+                          </button>
+                        </div>
+                      </>
+                    ) : null}
+                    <div className="flex mt-auto">
+                      <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <button onClick={() => toggleBlock('development')} className={styles.point}>
+                        <span className="flex items-center gap-1">
+                          <Arrow newClass={openedBlocks['development']} />
+                          Development: - 0%
+                        </span>
+                      </button>
+                    </div>
+                    {openedBlocks['development'] ? (
+                      <>
+                        <div className="flex mt-auto">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button onClick={() => toggleBlock('menu')} className={styles.point}>
+                            <span className="flex items-center gap-1">
+                              <Arrow newClass={openedBlocks['menu']} />
+                              Menu: - 0%
+                            </span>
+                          </button>
+                        </div>
+                        {openedBlocks['menu'] ? (
+                          <>
+                            <div className="flex">
+                              <span className="opacity-0">---</span>
+                              <span className="opacity-15"> | </span>
+                              <span className="opacity-0">------</span>
+                              <span className="opacity-15"> | </span>
+                              <span className="opacity-0">------</span>
+                              <span className="opacity-15"> | </span>
+                              <span className="opacity-0">------</span>
+                              <span className="opacity-15"> | </span>
+                              <span className="opacity-0">------</span>
+                              <span className="opacity-15"> | </span>
+                              <span className="opacity-0">------</span>
+                              <span className="opacity-15"> | </span>
+                              <span className="opacity-0">------</span>
+                              <span className="opacity-15"> | </span>
+                              <span className="opacity-0">------</span>
+                              <span className="opacity-15"> | </span>
+                              <span className="opacity-0">------</span>
+                              <span className="opacity-15"> | </span>
+                              <span className="opacity-0">------</span>
+                              <span className="opacity-15"> | </span>
+                              <button className={styles.point}>
+                                <span className="ml-[25px]">Animation - 0%</span>
+                              </button>
+                            </div>
+                          </>
+                        ) : null}
+                      </>
+                    ) : null}
+                  </>
+                ) : null}
+              </>
+            ) : null}
+            <div className="flex mt-auto">
+              <span className="opacity-0">---</span>
+              <span className="opacity-15"> | </span>
+              <span className="opacity-0">------</span>
+              <span className="opacity-15"> | </span>
+              <button onClick={() => toggleBlock('prophet')} className={styles.point}>
+                <span className="flex items-center gap-1">
+                  <Arrow newClass={openedBlocks['prophet']} />
+                  Prophet: - 0%
+                </span>
+              </button>
+            </div>
+            {openedBlocks['prophet'] ? (
+              <>
+                <div className="flex">
+                  <span className="opacity-0">---</span>
+                  <span className="opacity-15"> | </span>
+                  <span className="opacity-0">------</span>
+                  <span className="opacity-15"> | </span>
+                  <span className="opacity-0">------</span>
+                  <span className="opacity-15"> | </span>
+                  <span className="opacity-0">------</span>
+                  <span className="opacity-15"> | </span>
+                  <button className={styles.point}>
+                    <span className="ml-[25px]">Layout - 100%</span>
+                  </button>
+                </div>
+                <div className="flex mt-auto">
+                  <span className="opacity-0">---</span>
+                  <span className="opacity-15"> | </span>
+                  <span className="opacity-0">------</span>
+                  <span className="opacity-15"> | </span>
+                  <span className="opacity-0">------</span>
+                  <span className="opacity-15"> | </span>
+                  <span className="opacity-0">------</span>
+                  <span className="opacity-15"> | </span>
+                  <button onClick={() => toggleBlock('writeAScriptOnReactNative')} className={styles.point}>
+                    <span className="flex items-center gap-1">
+                      <Arrow newClass={openedBlocks['writeAScriptOnReactNative']} />
+                      Write a script on React Native: - 0%
+                    </span>
+                  </button>
+                </div>
+                {openedBlocks['writeAScriptOnReactNative'] ? (
+                  <>
+                    <div className="flex">
+                      <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <button className={styles.point}>
+                        <span className="ml-[25px]">Download Android Studio - 0%</span>
+                      </button>
+                    </div>
+                    <div className="flex">
+                      <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <button className={styles.point}>
+                        <span className="ml-[25px]">Expo CLI - 0%</span>
+                      </button>
+                    </div>
+                    <div className="flex">
+                      <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <button className={styles.point}>
+                        <span className="ml-[25px]">Learning realization apps - 0%</span>
+                      </button>
+                    </div>
+                  </>
+                ) : null}
+              </>
+            ) : null}
+            <div className="flex mt-auto">
+              <span className="opacity-0">---</span>
+              <span className="opacity-15"> | </span>
+              <span className="opacity-0">------</span>
+              <span className="opacity-15"> | </span>
+              <button onClick={() => toggleBlock('videoSite')} className={styles.point}>
+                <span className="flex items-center gap-1">
+                  <Arrow newClass={openedBlocks['videoSite']} />
+                  Video-site: - 0%
+                </span>
+              </button>
+            </div>
+            {openedBlocks['videoSite'] ? (
+              <>
+                <div className="flex mt-auto">
+                  <span className="opacity-0">---</span>
+                  <span className="opacity-15"> | </span>
+                  <span className="opacity-0">------</span>
+                  <span className="opacity-15"> | </span>
+                  <span className="opacity-0">------</span>
+                  <span className="opacity-15"> | </span>
+                  <span className="opacity-0">------</span>
+                  <span className="opacity-15"> | </span>
+                  <button onClick={() => toggleBlock('video')} className={styles.point}>
+                    <span className="flex items-center gap-1">
+                      <Arrow newClass={openedBlocks['video']} />
+                      Video: - 0%
+                    </span>
+                  </button>
+                </div>
+                {openedBlocks['video'] ? (
+                  <>
+                    <div className="flex">
+                      <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <button className={styles.point}>
+                        <span className="ml-[25px]">Voice acting High-Quality - 0%</span>
+                      </button>
+                    </div>
+                    <div className="flex">
+                      <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <button className={styles.point}>
+                        <span className="ml-[25px]">Visualizer - 100%</span>
+                      </button>
+                    </div>
+                    <div className="flex mt-auto">
+                      <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <button onClick={() => toggleBlock('videoMessage')} className={styles.point}>
+                        <span className="flex items-center gap-1">
+                          <Arrow newClass={openedBlocks['videoMessage']} />
+                          Video Message: - 33%
+                        </span>
+                      </button>
+                    </div>
+                    {openedBlocks['videoMessage'] ? (
+                      <>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Location - 100%</span>
+                          </button>
+                        </div>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Text - 100%</span>
+                          </button>
+                        </div>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Requisites - 0%</span>
+                          </button>
+                        </div>
+                      </>
+                    ) : null}
+                    <div className="flex mt-auto">
+                      <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <button onClick={() => toggleBlock('visualization')} className={styles.point}>
+                        <span className="flex items-center gap-1">
+                          <Arrow newClass={openedBlocks['visualization']} />
+                          Visualization: - 33%
+                        </span>
+                      </button>
+                    </div>
+                    {openedBlocks['visualization'] ? (
+                      <>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Text - 100%</span>
+                          </button>
+                        </div>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Video Script - 0%</span>
+                          </button>
+                        </div>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Realization - 0%</span>
+                          </button>
+                        </div>
+                      </>
+                    ) : null}
+                  </>
+                ) : null}
+                <div className="flex mt-auto">
+                  <span className="opacity-0">---</span>
+                  <span className="opacity-15"> | </span>
+                  <span className="opacity-0">------</span>
+                  <span className="opacity-15"> | </span>
+                  <span className="opacity-0">------</span>
+                  <span className="opacity-15"> | </span>
+                  <span className="opacity-0">------</span>
+                  <span className="opacity-15"> | </span>
+                  <button onClick={() => toggleBlock('webSite')} className={styles.point}>
+                    <span className="flex items-center gap-1">
+                      <Arrow newClass={openedBlocks['webSite']} />
+                      Web Site: - 0%
+                    </span>
+                  </button>
+                </div>
+                {openedBlocks['webSite'] ? (
+                  <>
+                    <div className="flex mt-auto">
+                      <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <button onClick={() => toggleBlock('mainWebSite')} className={styles.point}>
+                        <span className="flex items-center gap-1">
+                          <Arrow newClass={openedBlocks['mainWebSite']} />
+                          Main: - 0%
+                        </span>
+                      </button>
+                    </div>
+                    {openedBlocks['mainWebSite'] ? (
+                      <>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Video - 41.5%</span>
+                          </button>
+                        </div>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Algorithm Delete - 0%</span>
+                          </button>
+                        </div>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Algorithm Sound - 0%</span>
+                          </button>
+                        </div>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Algorithm Camera - 0%</span>
+                          </button>
+                        </div>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Algorithm Download - 0%</span>
+                          </button>
+                        </div>
+                      </>
+                    ) : null}
+                    <div className="flex mt-auto">
+                      <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <button onClick={() => toggleBlock('appsChat')} className={styles.point}>
+                        <span className="flex items-center gap-1">
+                          <Arrow newClass={openedBlocks['appsChat']} />
+                          Apps Chat: - 0%
+                        </span>
+                      </button>
+                    </div>
+                    {openedBlocks['appsChat'] ? (
+                      <>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Algorithm Message - 0%</span>
+                          </button>
+                        </div>
+                        <div className="flex">
+                          <span className="opacity-0">---</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <span className="opacity-0">------</span>
+                          <span className="opacity-15"> | </span>
+                          <button className={styles.point}>
+                            <span className="ml-[25px]">Style - 0%</span>
+                          </button>
+                        </div>
+                      </>
+                    ) : null}
                   </>
                 ) : null}
               </>

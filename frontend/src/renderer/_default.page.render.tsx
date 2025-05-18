@@ -8,7 +8,7 @@ type MyPageContext = PageContextServer & {
   pageProps: Record<string, unknown>;
 };
 
-export async function render(pageContext: MyPageContext) {
+export async function onRenderHtml(pageContext: MyPageContext) {
   const { Page, pageProps } = pageContext;
 
   const pageHtml = renderToString(
@@ -31,5 +31,5 @@ export async function render(pageContext: MyPageContext) {
 			</html>
 		`;
 
-  return { documentHtml };
+  return { documentHtml, pageContext: {} };
 }

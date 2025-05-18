@@ -5,5 +5,5 @@ import vike from 'vike/plugin';
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [tailwindcss(), react(), vike({ prerender: true })],
+  plugins: [tailwindcss(), react(), vike()],
 });

@@ -2,6 +2,7 @@ import { escapeInject, dangerouslySkipEscape } from 'vike/server';
 import type { PageContextServer } from 'vike/types';
 import { App } from '../App';
 import { renderToString } from 'react-dom/server';
+import React from 'react';
 
 export function prerender() {
   return [
