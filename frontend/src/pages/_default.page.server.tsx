@@ -19,6 +19,8 @@ export function prerender() {
 export async function onRenderHtml(pageContext: MyPageContext) {
   const { Page, pageProps } = pageContext;
 
+  console.log('onRenderHtml running for ', pageContext.urlOriginal);
+
   const pageHtml = renderToString(
     <App>
       <Page {...pageProps} />

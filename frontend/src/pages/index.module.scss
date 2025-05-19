@@ -3,53 +3,61 @@
   height: 100%;
   color: #fff;
   user-select: contain;
+
   .container {
     padding: 60px;
     max-width: 1288px;
     margin: 0 auto;
+
     .header {
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
     }
+
     .changed {
       margin-top: 35px;
+
       .circleChanged {
         display: flex;
         align-items: center;
         gap: 0.5rem;
+
         .circle {
           display: inline-block;
           width: 15px;
           height: 15px;
           border-radius: 50%;
           background-color: #4fffd3;
-          box-shadow: 0px 0px 10px rgba(41, 254, 201, 1);
+          box-shadow: 0 0 10px rgb(41 254 201 / 1);
         }
       }
-      .taskChanged {
-      }
     }
+
     .time {
       margin-top: 35px;
+
       .circle {
         display: inline-block;
         width: 15px;
         height: 15px;
         border-radius: 50%;
         background-color: #4fffd3;
-        box-shadow: 0px 0px 10px rgba(41, 254, 201, 1);
+        box-shadow: 0 0 10px rgb(41 254 201 / 1);
       }
     }
+
     .point {
       background: transparent;
       color: #fff;
       border: none;
       padding: 0;
       cursor: default;
+
       &:focus {
         outline: none;
       }
+
       &:focus-visible {
         outline: 2px solid blue;
       }

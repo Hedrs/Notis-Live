@@ -2,6 +2,7 @@ import { App } from '../App';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../index.css';
+import './index.module.scss';
 
 export function render(pageContext: any) {
   console.log('RENDER HOOK WORKING');
