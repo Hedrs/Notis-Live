@@ -2,6 +2,8 @@ import { escapeInject, dangerouslySkipEscape } from 'vike/server';
 import type { PageContextServer } from 'vike/types';
 import { App } from '../App';
 import { renderToString } from 'react-dom/server';
+import '../index.css';
+import './index.module.scss';
 
 type MyPageContext = PageContextServer & {
   Page: React.FC;
