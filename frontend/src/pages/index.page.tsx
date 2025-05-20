@@ -77,8 +77,8 @@ function Page() {
                   <span>Changed:</span>
                 </div>
                 <div className={styles.taskChanged}>
-                  <span className="block"> - Added a link to a new page</span>
-                  <span className=""> - Animation progress + 15 frames</span>
+                  <span className="block"> - The page has been released</span>
+                  <span className=""> - Problems solved</span>
                 </div>
               </div>
             </div>
