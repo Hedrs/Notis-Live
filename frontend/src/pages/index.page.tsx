@@ -68,16 +68,18 @@ function Page() {
         <div className={styles.container}>
           <Logo />
           <div className={styles.header}>
-            <Table />
-            <div className={styles.changed}>
-              <div className={styles.circleChanged}>
-                <span className={styles.circle}></span>
+            <div className={styles.tableAndChanged}>
+              <Table />
+              <div className={styles.changed}>
+                <div className={styles.circleChanged}>
+                  <span className={styles.circle}></span>
 
-                <span>Changed:</span>
-              </div>
-              <div className={styles.taskChanged}>
-                <span className="block"> - Added a link to a new page</span>
-                <span className=""> - Animation progress + 15 frames</span>
+                  <span>Changed:</span>
+                </div>
+                <div className={styles.taskChanged}>
+                  <span className="block"> - Added a link to a new page</span>
+                  <span className=""> - Animation progress + 15 frames</span>
+                </div>
               </div>
             </div>
             <div className={styles.time}>

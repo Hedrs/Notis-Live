@@ -14,22 +14,25 @@
       align-items: flex-start;
       justify-content: space-between;
     }
+    .tableAndChanged {
+      display: flex;
+      align-items: flex-start;
+      gap: 75px;
+      .changed {
+        margin-top: 35px;
+        .circleChanged {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
 
-    .changed {
-      margin-top: 35px;
-
-      .circleChanged {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-
-        .circle {
-          display: inline-block;
-          width: 15px;
-          height: 15px;
-          border-radius: 50%;
-          background-color: #4fffd3;
-          box-shadow: 0 0 10px rgb(41 254 201 / 1);
+          .circle {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: #4fffd3;
+            box-shadow: 0 0 10px rgb(41 254 201 / 1);
+          }
         }
       }
     }
