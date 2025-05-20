@@ -1802,7 +1802,7 @@ function Page() {
                       <button onClick={() => toggleBlock('addingAds')} className={styles.point}>
                         <span className="flex items-center gap-1">
                           <Arrow newClass={openedBlocks['addingAds']} />
-                          Adding ads: - 33.7%
+                          Adding ads: - 0%
                         </span>
                       </button>
                     </div>
@@ -2984,6 +2984,10 @@ function Page() {
                       <span className="opacity-15"> | </span>
                       <span className="opacity-0">------</span>
                       <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
                       <button onClick={() => toggleBlock('createObject')} className={styles.point}>
                         <span className="flex items-center gap-1">
                           <Arrow newClass={openedBlocks['createObject']} />
@@ -3039,6 +3043,10 @@ function Page() {
                     ) : null}
                     <div className="flex mt-auto">
                       <span className="opacity-0">---</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
+                      <span className="opacity-15"> | </span>
+                      <span className="opacity-0">------</span>
                       <span className="opacity-15"> | </span>
                       <span className="opacity-0">------</span>
                       <span className="opacity-15"> | </span>
