@@ -11,7 +11,10 @@
     max-width: 1408px;
     margin: 0 auto;
     @include mixins.container(1708px);
-    @include mixins.container(1408px);
+
+    @include include-media.media(1408px) {
+      @include mixins.container(1408px);
+    }
 
     .header {
       display: flex;
