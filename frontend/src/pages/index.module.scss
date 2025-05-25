@@ -1,4 +1,15 @@
 @use '../styles/mixins.scss';
+@use '../../node_modules/include-media/dist/include-media';
+
+@font-face {
+  font-family: 'Brandon';
+  src:
+    url('../font/BrandonGrotesque-Black.woff') format('woff'),
+    url('../font/BrandonGrotesque-Black.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 .wrapper {
   width: 100%;
@@ -7,13 +18,32 @@
   user-select: contain;
 
   .container {
-    padding: 60px;
-    max-width: 1408px;
-    margin: 0 auto;
-    @include mixins.container(1708px);
-
-    @include include-media.media(1408px) {
-      @include mixins.container(1408px);
+    @include include-media.media('>=640px') {
+      @include mixins.container(515px);
+    }
+    @include include-media.media('>=768px') {
+      @include mixins.container(643px);
+    }
+    @include include-media.media('>=1024px') {
+      @include mixins.container(899px);
+    }
+    @include include-media.media('>=1080px') {
+      @include mixins.container(955px);
+    }
+    @include include-media.media('>=1280px') {
+      @include mixins.container(1155px);
+    }
+    @include include-media.media('>=1366px') {
+      @include mixins.container(1241px);
+    }
+    @include include-media.media('>=1440px') {
+      @include mixins.container(1315px);
+    }
+    @include include-media.media('>=1472px') {
+      @include mixins.container(1394px); // 1408px
+    }
+    @include include-media.media('>=1920px') {
+      @include mixins.container(1608px);
     }
 
     .header {
@@ -71,6 +101,15 @@
       &:focus-visible {
         outline: 2px solid blue;
       }
+    }
+
+    .supportBlockAndDonation {
+      position: fixed;
+      padding-right: 30px;
+      padding-bottom: 32px;
+      right: 0;
+      bottom: 0;
+      font-family: 'Brandon';
     }
   }
 }

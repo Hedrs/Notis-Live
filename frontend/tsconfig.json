@@ -31,6 +31,6 @@
       "@generated/*": ["generated/*"]
     }
   },
-  "include": ["src/**/*", "generated/**/*"],
+  "include": ["src/**/*", "generated/**/*", "src/svgComponents/DonationFolder/.tsx"],
   "exclude": ["node_modules", "dist"]
 }

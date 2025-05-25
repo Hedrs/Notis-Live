@@ -1,0 +1,20 @@
+@use '../../../node_modules/include-media/dist/include-media';
+
+.table {
+  @include include-media.media('>=1366px') {
+    width: 500px;
+    height: 220px;
+  }
+  @include include-media.media('>=1440px') {
+    width: 600px;
+    height: 270px;
+  }
+  @include include-media.media('>=1472px') {
+    width: 600px;
+    height: 270px;
+  }
+  @include include-media.media('>=1920px') {
+    width: 600px;
+    height: 270px;
+  }
+}

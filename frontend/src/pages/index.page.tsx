@@ -5,6 +5,9 @@ import Logo from '../svgComponents/LogoFolder/Logo';
 import Table from '../svgComponents/TableFolder/Table';
 import { timeSince } from '../lib/date-helper';
 import { LAST_UPDATE } from '../../generated/lastUpdate';
+import Vector from '../svgComponents/VectorFolder/Vector';
+import Telegram from '../svgComponents/TelegramFolder/Telegram';
+import Donation from '../svgComponents/DonationFolder/Donation';
 
 function Page() {
   const [openedBlocks, setOpenedBlocks] = useState<Record<string, boolean>>({
@@ -3940,6 +3943,27 @@ function Page() {
                 ) : null}
               </>
             ) : null}
+          </div>
+          <div className={styles.supportBlockAndDonation}>
+            <div className="flex">
+              <div className="flex items-end mr-5">
+                <Vector />
+              </div>
+              <div>
+                <a href="https://t.me/notisc" className="flex gap-4 items-center text-2xl">
+                  <Telegram /> t.me/notisc
+                </a>
+                <a
+                  href="https://www.donationalerts.com/r/flip_the_time"
+                  className="flex gap-4 items-center text-2xl mt-5 text-white"
+                >
+                  <Donation /> Support please
+                </a>
+              </div>
+            </div>
+            <div className="mt-3 text-[21px]">
+              <p>Mail: notisteam24supp0rt@gmail.com</p>
+            </div>
           </div>
         </div>
       </div>
