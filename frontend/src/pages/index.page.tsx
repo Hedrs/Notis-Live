@@ -3950,7 +3950,7 @@ function Page() {
                 <Vector />
               </div>
               <div>
-                <a href="https://t.me/notisc" className="flex gap-4 items-center text-2xl">
+                <a href="https://t.me/notis_industreis" className="flex gap-4 items-center text-2xl">
                   <Telegram /> t.me/notisc
                 </a>
                 <a
