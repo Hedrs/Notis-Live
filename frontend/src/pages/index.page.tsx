@@ -3951,7 +3951,7 @@ function Page() {
               </div>
               <div>
                 <a href="https://t.me/notis_industreis" className="flex gap-4 items-center text-2xl">
-                  <Telegram /> t.me/notisc
+                  <Telegram /> t.me/notis_industreis
                 </a>
                 <a
                   href="https://www.donationalerts.com/r/flip_the_time"
