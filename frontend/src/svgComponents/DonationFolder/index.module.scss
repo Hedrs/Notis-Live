@@ -1,0 +1,12 @@
+@use '../../../node_modules/include-media/dist/include-media';
+
+.donation {
+  @include include-media.media('>=640px') {
+    width: 35px;
+    height: 34px;
+  }
+  @include include-media.media('>=1920px') {
+    width: 41px;
+    height: 40px;
+  }
+}

@@ -1,0 +1,12 @@
+@use '../../../node_modules/include-media/dist/include-media';
+
+.telegram {
+  @include include-media.media('>=640px') {
+    width: 33px;
+    height: 25px;
+  }
+  @include include-media.media('>=1920px') {
+    width: 38px;
+    height: 30px;
+  }
+}

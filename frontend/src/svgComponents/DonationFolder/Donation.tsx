@@ -1,6 +1,8 @@
+import styles from './index.module.scss';
+
 export default function Donation() {
   return (
-    <svg width="41" height="40" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className={styles.donation} viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
         d="M25.5 1.5C38.783 1.5 49.5 12.0492 49.5 25C49.5 37.9508 38.783 48.5 25.5 48.5C12.217 48.5 1.5 37.9508 1.5 25C1.5 12.0492 12.217 1.5 25.5 1.5Z"
         fill="#2E3440"

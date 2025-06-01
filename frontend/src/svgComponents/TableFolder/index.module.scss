@@ -1,6 +1,10 @@
 @use '../../../node_modules/include-media/dist/include-media';
 
 .table {
+  @include include-media.media('>=640px') {
+    width: 568px;
+    height: 219px;
+  }
   @include include-media.media('>=1366px') {
     width: 500px;
     height: 220px;
