@@ -17,7 +17,7 @@
   color: #fff;
   user-select: contain;
   @include include-media.media('>=300px') {
-    font-size: 6px;
+    font-size: 7px;
   }
   @include include-media.media('>=400px') {
     font-size: 8px;
@@ -315,12 +315,9 @@
       padding: 0;
       cursor: default;
 
-      &:focus {
-        outline: none;
-      }
-
+      &:focus,
       &:focus-visible {
-        outline: 2px solid blue;
+        outline: none !important;
       }
     }
 

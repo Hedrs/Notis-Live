@@ -3734,10 +3734,10 @@ function Page() {
                   href="https://t.me/notis_industreis"
                   className={
                     isSmallMobile
-                      ? 'flex gap-2 items-center text-[10px]'
+                      ? 'flex gap-2 items-center text-[10px] outline-0'
                       : isMobile || isTablet
-                        ? 'flex gap-4 items-center text-[20px]'
-                        : 'flex gap-4 items-center text-2xl'
+                        ? 'flex gap-4 items-center text-[20px] outline-0'
+                        : 'flex gap-4 items-center text-2xl outline-0'
                   }
                 >
                   <Telegram /> notis_industreis
@@ -3746,10 +3746,10 @@ function Page() {
                   href="https://www.donationalerts.com/r/flip_the_time"
                   className={
                     isSmallMobile
-                      ? 'flex gap-2 items-center text-[10px] mt-2 text-white'
+                      ? 'flex gap-2 items-center text-[10px] mt-2 text-white outline-0'
                       : isMobile || isTablet
-                        ? 'flex gap-4 items-center text-[20px] mt-5 text-white'
-                        : 'flex gap-4 items-center text-2xl mt-5 text-white'
+                        ? 'flex gap-4 items-center text-[20px] mt-5 text-white outline-0'
+                        : 'flex gap-4 items-center text-2xl mt-5 text-white outline-0'
                   }
                 >
                   <Donation /> Support please
