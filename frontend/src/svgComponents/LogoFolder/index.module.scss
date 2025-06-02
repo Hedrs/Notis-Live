@@ -1,67 +1,56 @@
 @use '../../../node_modules/include-media/dist/include-media';
 
-.rest {
-  display: inline;
-  margin-left: 8px;
-  margin-right: 6px;
-  transition: transform 0.5s ease;
+.logo {
   @include include-media.media('>=300px') {
-    width: 5px;
-    height: 10px;
-    margin-right: 3px;
+    width: 162px;
+    height: 37px;
   }
   @include include-media.media('>=400px') {
-    width: 5px;
-    height: 10px;
-    margin-right: 3px;
+    width: 178px;
+    height: 37px;
   }
   @include include-media.media('>=500px') {
-    width: 5px;
-    height: 10px;
-    margin-right: 3px;
+    width: 188px;
+    height: 41px;
   }
   @include include-media.media('>=640px') {
-    width: 7px;
-    height: 14px;
+    width: 268px;
+    height: 61px;
   }
   @include include-media.media('>=760px') {
-    width: 7px;
-    height: 14px;
+    width: 268px;
+    height: 61px;
   }
   @include include-media.media('>=800px') {
-    width: 7px;
-    height: 14px;
+    width: 268px;
+    height: 61px;
   }
   @include include-media.media('>=1024px') {
-    width: 7px;
-    height: 14px;
+    width: 268px;
+    height: 61px;
   }
   @include include-media.media('>=1080px') {
-    width: 7px;
-    height: 14px;
+    width: 268px;
+    height: 61px;
   }
   @include include-media.media('>=1280px') {
-    width: 7px;
-    height: 14px;
+    width: 268px;
+    height: 61px;
   }
   @include include-media.media('>=1366px') {
-    width: 7px;
-    height: 14px;
+    width: 268px;
+    height: 61px;
   }
   @include include-media.media('>=1440px') {
-    width: 7px;
-    height: 14px;
+    width: 268px;
+    height: 61px;
   }
   @include include-media.media('>=1472px') {
-    width: 7px;
-    height: 14px;
+    width: 268px;
+    height: 61px;
   }
   @include include-media.media('>=1920px') {
-    width: 7px;
-    height: 14px;
+    width: 268px;
+    height: 61px;
   }
-}
-
-.active {
-  transform: rotate(92deg);
 }

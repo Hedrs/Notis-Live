@@ -66,6 +66,7 @@ function Page() {
     };
   }, []);
 
+  const isSmallMobile = windowWidth <= 500;
   const isMobile = windowWidth <= 720;
   const isTablet = windowWidth <= 1024;
 
@@ -81,7 +82,7 @@ function Page() {
     <>
       <div className={styles.wrapper}>
         <div className={styles.container}>
-          {isMobile || isTablet ? (
+          {isMobile || isTablet || isSmallMobile ? (
             <>
               <div>
                 <div className="flex justify-between items-center">
@@ -128,7 +129,7 @@ function Page() {
                   </div>
                 </div>
                 <div className={styles.time}>
-                  <div className="flex items-center gap-2">
+                  <div className={isSmallMobile ? 'flex items-center gap-1' : 'flex items-center gap-2'}>
                     Last update: {timeSince(resultTime)}
                     <span className={styles.circle}></span>
                   </div>
@@ -146,7 +147,7 @@ function Page() {
               <button onClick={() => toggleBlock('vegipost')} className={styles.point}>
                 <span className="flex items-center gap-1">
                   <Arrow newClass={openedBlocks['vegipost']} />
-                  Web site VEGIPOST on 8.25%
+                  Web site VEGIPOST on 7.6%
                 </span>
               </button>
             </div>
@@ -3732,7 +3733,11 @@ function Page() {
                 <a
                   href="https://t.me/notis_industreis"
                   className={
-                    isMobile || isTablet ? 'flex gap-4 items-center text-[20px]' : 'flex gap-4 items-center text-2xl'
+                    isSmallMobile
+                      ? 'flex gap-2 items-center text-[10px]'
+                      : isMobile || isTablet
+                        ? 'flex gap-4 items-center text-[20px]'
+                        : 'flex gap-4 items-center text-2xl'
                   }
                 >
                   <Telegram /> notis_industreis
@@ -3740,16 +3745,22 @@ function Page() {
                 <a
                   href="https://www.donationalerts.com/r/flip_the_time"
                   className={
-                    isMobile || isTablet
-                      ? 'flex gap-4 items-center text-[20px] mt-5 text-white'
-                      : 'flex gap-4 items-center text-2xl mt-5 text-white'
+                    isSmallMobile
+                      ? 'flex gap-2 items-center text-[10px] mt-2 text-white'
+                      : isMobile || isTablet
+                        ? 'flex gap-4 items-center text-[20px] mt-5 text-white'
+                        : 'flex gap-4 items-center text-2xl mt-5 text-white'
                   }
                 >
                   <Donation /> Support please
                 </a>
               </div>
             </div>
-            <div className={isMobile || isTablet ? 'mt-3 text-[18px]' : 'mt-3 text-[21px]'}>
+            <div
+              className={
+                isSmallMobile ? 'mt-3 text-[10px]' : isMobile || isTablet ? 'mt-3 text-[18px]' : 'mt-3 text-[21px]'
+              }
+            >
               <p>Mail: notisteam24supp0rt@gmail.com</p>
             </div>
           </div>

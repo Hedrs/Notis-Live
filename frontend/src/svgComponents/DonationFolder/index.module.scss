@@ -1,9 +1,49 @@
 @use '../../../node_modules/include-media/dist/include-media';
 
 .donation {
+  @include include-media.media('>=300px') {
+    width: 23px;
+    height: 22px;
+  }
+  @include include-media.media('>=400px') {
+    width: 30px;
+    height: 29px;
+  }
+  @include include-media.media('>=500px') {
+    width: 30px;
+    height: 29px;
+  }
   @include include-media.media('>=640px') {
     width: 35px;
     height: 34px;
+  }
+  @include include-media.media('>=768px') {
+    width: 35px;
+    height: 34px;
+  }
+  @include include-media.media('>=1024px') {
+    width: 35px;
+    height: 34px;
+  }
+  @include include-media.media('>=1040px') {
+    width: 35px;
+    height: 34px;
+  }
+  @include include-media.media('>=1080px') {
+    width: 41px;
+    height: 40px;
+  }
+  @include include-media.media('>=1366px') {
+    width: 41px;
+    height: 40px;
+  }
+  @include include-media.media('>=1440px') {
+    width: 41px;
+    height: 40px;
+  }
+  @include include-media.media('>=1472px') {
+    width: 41px;
+    height: 40px;
   }
   @include include-media.media('>=1920px') {
     width: 41px;
