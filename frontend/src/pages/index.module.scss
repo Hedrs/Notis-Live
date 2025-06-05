@@ -84,6 +84,10 @@
     @include include-media.media('>=1920px') {
       @include mixins.container(1608px);
     }
+    // 1
+    @include include-media.media('<=1920px') {
+      @include mixins.container(1608px);
+    }
 
     .header {
       display: flex;
@@ -100,7 +104,7 @@
       @include include-media.media('>=1280px') {
         display: flex;
         align-items: flex-start;
-        gap: 75px;
+        gap: 35px;
         flex-direction: row;
       }
       @include include-media.media('>=1472px') {
@@ -240,6 +244,9 @@
     .time {
       @include include-media.media('>=640px') {
         margin-top: 0px;
+      }
+      @include include-media.media('>=1280px') {
+        margin-top: 35px;
       }
       @include include-media.media('>=1472px') {
         margin-top: 35px;

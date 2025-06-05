@@ -103,8 +103,9 @@ function Page() {
                       <span>Changed:</span>
                     </div>
                     <div className={styles.taskChanged}>
-                      <span className="block"> - The page has been released</span>
-                      <span className=""> - Problems solved</span>
+                      <span className="block"> - Added an SEO point for the vegepost project</span>
+                      <span className="block"> - Updated project table</span>
+                      <span className=""> - Made adaptive</span>
                     </div>
                   </div>
                 </div>
@@ -123,8 +124,9 @@ function Page() {
                       <span>Changed:</span>
                     </div>
                     <div className={styles.taskChanged}>
-                      <span className="block"> - The page has been released</span>
-                      <span className=""> - Problems solved</span>
+                      <span className="block"> - Added an SEO point for the vegepost project</span>
+                      <span className="block"> - Updated project table</span>
+                      <span className=""> - Made adaptive</span>
                     </div>
                   </div>
                 </div>
