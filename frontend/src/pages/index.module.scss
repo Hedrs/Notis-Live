@@ -87,7 +87,7 @@
     @include include-media.media('>=1472px') {
       @include mixins.container(1394px); // 1408px
     }
-    @include include-media.media('>=1912px') {
+    @include include-media.media('>=1900px') {
       @include mixins.container(1608px);
     }
     @include include-media.media('>=1920px') {
