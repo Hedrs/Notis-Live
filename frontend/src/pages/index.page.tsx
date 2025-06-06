@@ -3765,6 +3765,7 @@ function Page() {
             >
               <p>Mail: notisteam24supp0rt@gmail.com</p>
             </div>
+            <p>Viewport width: {typeof window !== 'undefined' ? window.innerWidth : 'loading...'}</p>
           </div>
         </div>
       </div>
