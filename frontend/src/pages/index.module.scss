@@ -51,43 +51,43 @@
   }
 
   .container {
-    @include include-media.media('<=300px') {
+    @include include-media.media('>=300px') {
       @include mixins.container(320px, 25px, 10px, 20px, 10px);
     }
-    @include include-media.media('<=400px') {
+    @include include-media.media('>=400px') {
       @include mixins.container(360px, 25px, 10px, 20px, 10px);
     }
-    @include include-media.media('<=500px') {
+    @include include-media.media('>=500px') {
       @include mixins.container(390px);
     }
-    @include include-media.media('<=500px') {
+    @include include-media.media('>=500px') {
       @include mixins.container(390px);
     }
-    @include include-media.media('<=640px') {
+    @include include-media.media('>=640px') {
       @include mixins.container(630px);
     }
-    @include include-media.media('<=768px') {
+    @include include-media.media('>=768px') {
       @include mixins.container(643px);
     }
-    @include include-media.media('<=1024px') {
+    @include include-media.media('>=1024px') {
       @include mixins.container(899px);
     }
-    @include include-media.media('<=1080px') {
+    @include include-media.media('>=1080px') {
       @include mixins.container(955px);
     }
-    @include include-media.media('<=1280px') {
+    @include include-media.media('>=1280px') {
       @include mixins.container(1155px);
     }
-    @include include-media.media('<=1366px') {
+    @include include-media.media('>=1366px') {
       @include mixins.container(1241px);
     }
-    @include include-media.media('<=1440px') {
+    @include include-media.media('>=1440px') {
       @include mixins.container(1315px);
     }
-    @include include-media.media('<=1472px') {
+    @include include-media.media('>=1472px') {
       @include mixins.container(1394px); // 1408px
     }
-    @include include-media.media('<=1920px') {
+    @include include-media.media('>=1920px') {
       @include mixins.container(1608px);
     }
 
