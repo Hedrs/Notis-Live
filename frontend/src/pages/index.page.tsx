@@ -149,7 +149,7 @@ function Page() {
               <button onClick={() => toggleBlock('vegipost')} className={styles.point}>
                 <span className="flex items-center gap-1">
                   <Arrow newClass={openedBlocks['vegipost']} />
-                  Web site VEGIPOST on 7.6%
+                  Web site VEGIPOST on 6.851%
                 </span>
               </button>
             </div>
@@ -167,7 +167,7 @@ function Page() {
                   <button onClick={() => toggleBlock('main')} className={styles.point}>
                     <span className="flex items-center gap-1">
                       <Arrow newClass={openedBlocks['main']} />
-                      Main: - 24.6%
+                      Main: - 25.855%
                     </span>
                   </button>
                 </div>
@@ -189,7 +189,7 @@ function Page() {
                       <button onClick={() => toggleBlock('header')} className={styles.point}>
                         <span className="flex items-center gap-1">
                           <Arrow newClass={openedBlocks['header']} />
-                          Header: - 37.63%
+                          Header: - 45,125%
                         </span>
                       </button>
                     </div>
@@ -487,7 +487,7 @@ function Page() {
                           <button onClick={() => toggleBlock('category')} className={styles.point}>
                             <span className="flex items-center gap-1">
                               <Arrow newClass={openedBlocks['category']} />
-                              Category: - 20%
+                              Category: - 80%
                             </span>
                           </button>
                         </div>
@@ -540,7 +540,7 @@ function Page() {
                               <span className="opacity-0">------</span>
                               <span className="opacity-15"> | </span>
                               <button className={styles.point}>
-                                <span className="ml-[25px]">Modal Window (style) - 0%</span>
+                                <span className="ml-[25px]">Modal Window (style) - 100%</span>
                               </button>
                             </div>
                             <div className="flex">
@@ -590,7 +590,7 @@ function Page() {
                               <span className="opacity-0">------</span>
                               <span className="opacity-15"> | </span>
                               <button className={styles.point}>
-                                <span className="ml-[25px]">Block Category (alg.) - 0%</span>
+                                <span className="ml-[25px]">Block Category (alg.) - 100%</span>
                               </button>
                             </div>
                             <div className="flex">
@@ -615,7 +615,7 @@ function Page() {
                               <span className="opacity-0">------</span>
                               <span className="opacity-15"> | </span>
                               <button className={styles.point}>
-                                <span className="ml-[25px]">Block Category (style) - 0%</span>
+                                <span className="ml-[25px]">Block Category (style) - 100%</span>
                               </button>
                             </div>
                           </>
