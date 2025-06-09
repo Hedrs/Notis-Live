@@ -145,7 +145,7 @@ function Page() {
               <button onClick={() => toggleBlock('vegipost')} className={styles.point}>
                 <span className="flex items-center gap-1">
                   <Arrow newClass={openedBlocks['vegipost']} />
-                  Web site VEGIPOST on 6.851%
+                  Web site VEGIPOST on 6.94%
                 </span>
               </button>
             </div>
@@ -163,7 +163,7 @@ function Page() {
                   <button onClick={() => toggleBlock('main')} className={styles.point}>
                     <span className="flex items-center gap-1">
                       <Arrow newClass={openedBlocks['main']} />
-                      Main: - 25.855%
+                      Main: - 26.27%
                     </span>
                   </button>
                 </div>
@@ -185,7 +185,7 @@ function Page() {
                       <button onClick={() => toggleBlock('header')} className={styles.point}>
                         <span className="flex items-center gap-1">
                           <Arrow newClass={openedBlocks['header']} />
-                          Header: - 45,125%
+                          Header: - 47,63%
                         </span>
                       </button>
                     </div>
@@ -483,7 +483,7 @@ function Page() {
                           <button onClick={() => toggleBlock('category')} className={styles.point}>
                             <span className="flex items-center gap-1">
                               <Arrow newClass={openedBlocks['category']} />
-                              Category: - 80%
+                              Category: - 100%
                             </span>
                           </button>
                         </div>
@@ -511,7 +511,7 @@ function Page() {
                               <span className="opacity-0">------</span>
                               <span className="opacity-15"> | </span>
                               <button className={styles.point}>
-                                <span className="ml-[25px]">Modal Window (alg.) - 0%</span>
+                                <span className="ml-[25px]">Modal Window (alg.) - 100%</span>
                               </button>
                             </div>
                             <div className="flex">
