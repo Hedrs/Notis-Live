@@ -103,9 +103,7 @@ function Page() {
                       <span>Changed:</span>
                     </div>
                     <div className={styles.taskChanged}>
-                      <span className="block"> - Added an SEO point for the vegepost project</span>
-                      <span className="block"> - Updated project table</span>
-                      <span className=""> - Made adaptive</span>
+                      <span className="block"> - Watched lessons on web socket</span>
                     </div>
                   </div>
                 </div>
@@ -124,9 +122,7 @@ function Page() {
                       <span>Changed:</span>
                     </div>
                     <div className={styles.taskChanged}>
-                      <span className="block"> - Added an SEO point for the vegepost project</span>
-                      <span className="block"> - Updated project table</span>
-                      <span className=""> - Made adaptive</span>
+                      <span className="block"> - Watched lessons on web socket</span>
                     </div>
                   </div>
                 </div>
@@ -266,7 +262,7 @@ function Page() {
                               <button onClick={() => toggleBlock('algorithmSearch')} className={styles.point}>
                                 <span className="flex items-center gap-1">
                                   <Arrow newClass={openedBlocks['algorithmSearch']} />
-                                  Algorithm: - 25%
+                                  Algorithm: - 0%
                                 </span>
                               </button>
                             </div>
