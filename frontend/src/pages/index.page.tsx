@@ -8,6 +8,7 @@ import { LAST_UPDATE } from '../../generated/lastUpdate';
 import Vector from '../svgComponents/VectorFolder/Vector';
 import Telegram from '../svgComponents/TelegramFolder/Telegram';
 import Donation from '../svgComponents/DonationFolder/Donation';
+import Prophet from '../components/prophet/index';
 
 function Page() {
   const [openedBlocks, setOpenedBlocks] = useState<Record<string, boolean>>({
@@ -103,7 +104,7 @@ function Page() {
                       <span>Changed:</span>
                     </div>
                     <div className={styles.taskChanged}>
-                      <span className="block"> - Watched lessons on web socket</span>
+                      <span className="block"> - The Prophet project has been added</span>
                     </div>
                   </div>
                 </div>
@@ -122,7 +123,7 @@ function Page() {
                       <span>Changed:</span>
                     </div>
                     <div className={styles.taskChanged}>
-                      <span className="block"> - Watched lessons on web socket</span>
+                      <span className="block"> - The Prophet project has been added</span>
                     </div>
                   </div>
                 </div>
@@ -3722,6 +3723,7 @@ function Page() {
               </>
             ) : null}
           </div>
+          <Prophet />
           <div className={styles.supportBlockAndDonation}>
             <div className="flex justify-end">
               <div className="flex items-end mr-5">
