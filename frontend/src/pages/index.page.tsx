@@ -3722,8 +3722,8 @@ function Page() {
                 ) : null}
               </>
             ) : null}
+            <Prophet />
           </div>
-          <Prophet />
           <div className={styles.supportBlockAndDonation}>
             <div className="flex justify-end">
               <div className="flex items-end mr-5">
