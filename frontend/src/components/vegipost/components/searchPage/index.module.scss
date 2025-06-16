@@ -1,0 +1,12 @@
+.point {
+  background: transparent;
+  color: #fff;
+  border: none;
+  padding: 0;
+  cursor: default;
+
+  &:focus,
+  &:focus-visible {
+    outline: none !important;
+  }
+}
