@@ -8,6 +8,7 @@ import { LAST_UPDATE } from '../../generated/lastUpdate';
 import Vector from '../svgComponents/VectorFolder/Vector';
 import Telegram from '../svgComponents/TelegramFolder/Telegram';
 import Donation from '../svgComponents/DonationFolder/Donation';
+import Prophet from '../components/prophet/index';
 
 function Page() {
   const [openedBlocks, setOpenedBlocks] = useState<Record<string, boolean>>({
@@ -3721,7 +3722,7 @@ function Page() {
                 ) : null}
               </>
             ) : null}
-            {/* <Prophet /> */}
+            <Prophet />
           </div>
           <div className={styles.supportBlockAndDonation}>
             <div className="flex justify-end">
