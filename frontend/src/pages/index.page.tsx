@@ -39,7 +39,7 @@ function Page() {
     <>
       <div className={styles.wrapper}>
         <div className={styles.container}>
-          <p>Test</p>
+          <p className="text-7xl">Test</p>
           {/* {isMobile || isTablet || isSmallMobile ? (
             <>
               <div>
