@@ -1,46 +1,45 @@
 import styles from './index.module.scss';
-// import { useEffect, useState } from 'react';
-// import Logo from '../svgComponents/LogoFolder/Logo';
-// import Table from '../svgComponents/TableFolder/Table';
-// import { timeSince } from '../lib/date-helper';
-// import { LAST_UPDATE } from '../../generated/lastUpdate';
-// import Vector from '../svgComponents/VectorFolder/Vector';
-// import Telegram from '../svgComponents/TelegramFolder/Telegram';
-// import Donation from '../svgComponents/DonationFolder/Donation';
-// import Prophet from '../components/prophet/index';
-// import VideoChat from '../components/videoChat/index';
-// import ArmWrestling from '../components/armWrestling/index';
-// import Notis from '../components/notis';
-// import Vegipost from '../components/vegipost';
+import { useEffect, useState } from 'react';
+import Logo from '../svgComponents/LogoFolder/Logo';
+import Table from '../svgComponents/TableFolder/Table';
+import { timeSince } from '../lib/date-helper';
+import { LAST_UPDATE } from '../../generated/lastUpdate';
+import Vector from '../svgComponents/VectorFolder/Vector';
+import Telegram from '../svgComponents/TelegramFolder/Telegram';
+import Donation from '../svgComponents/DonationFolder/Donation';
+import Prophet from '../components/prophet/index';
+import VideoChat from '../components/videoChat/index';
+import ArmWrestling from '../components/armWrestling/index';
+import Notis from '../components/notis';
+import Vegipost from '../components/vegipost';
 
 function Page() {
-  // const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 0);
+  const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 0);
 
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     if (typeof window !== 'undefined') {
-  //       setWindowWidth(window.innerWidth);
-  //     }
-  //   };
+  useEffect(() => {
+    const handleResize = () => {
+      if (typeof window !== 'undefined') {
+        setWindowWidth(window.innerWidth);
+      }
+    };
 
-  //   window.addEventListener('resize', handleResize);
+    window.addEventListener('resize', handleResize);
 
-  //   return () => {
-  //     window.removeEventListener('resize', handleResize);
-  //   };
-  // }, []);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
-  // const isSmallMobile = windowWidth <= 500;
-  // const isMobile = windowWidth <= 720;
-  // const isTablet = windowWidth <= 1024;
+  const isSmallMobile = windowWidth <= 500;
+  const isMobile = windowWidth <= 720;
+  const isTablet = windowWidth <= 1024;
 
-  // const resultTime = LAST_UPDATE;
+  const resultTime = LAST_UPDATE;
   return (
     <>
       <div className={styles.wrapper}>
         <div className={styles.container}>
-          <p className="text-7xl">Test</p>
-          {/* {isMobile || isTablet || isSmallMobile ? (
+          {isMobile || isTablet || isSmallMobile ? (
             <>
               <div>
                 <div className="flex justify-between items-center">
@@ -92,16 +91,16 @@ function Page() {
                 </div>
               </div>
             </>
-          )} */}
-          {/* <div>
+          )}
+          <div>
             <span className="">Project: </span>
             <Vegipost />
             <Notis />
             <ArmWrestling />
             <VideoChat />
             <Prophet />
-          </div> */}
-          {/* <div className={styles.supportBlockAndDonation}>
+          </div>
+          <div className={styles.supportBlockAndDonation}>
             <div className="flex justify-end">
               <div className="flex items-end mr-5">
                 <Vector />
@@ -140,8 +139,8 @@ function Page() {
             >
               <p>Mail: notisteam24supp0rt@gmail.com</p>
             </div>
-            <p>Viewport width: {typeof window !== 'undefined' ? window.innerWidth : 'loading...'}</p>
-          </div> */}
+            {/* <p>Viewport width: {typeof window !== 'undefined' ? window.innerWidth : 'loading...'}</p> */}
+          </div>
         </div>
       </div>
     </>
