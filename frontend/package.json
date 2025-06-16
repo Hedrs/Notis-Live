@@ -24,7 +24,6 @@
     "vike": "^0.4.229"
   },
   "devDependencies": {
-    "@esbuild/linux-x64": "^0.25.5",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",

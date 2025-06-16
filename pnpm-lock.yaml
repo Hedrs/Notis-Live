@@ -84,9 +84,6 @@ importers:
         specifier: ^0.4.229
         version: 0.4.231(vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(lightningcss@1.30.1)(sass@1.89.2)(yaml@2.8.0))
     devDependencies:
-      '@esbuild/linux-x64':
-        specifier: ^0.25.5
-        version: 0.25.5
       '@types/react':
         specifier: ^19.0.10
         version: 19.1.7
@@ -909,6 +906,7 @@ packages:
   '@esbuild/linux-x64@0.25.5':
     resolution: {integrity: sha512-uhj8N2obKTE6pSZ+aMUbqq+1nXxNjZIIjCjGLfsWvVpy7gKCOL6rsY1MhRh9zLtUtAI7vpgLMK6DxjO8Qm9lJw==}
     engines: {node: '>=18'}
+    cpu: [x64]
     os: [linux]
 
   '@esbuild/netbsd-arm64@0.25.5':
@@ -4254,7 +4252,8 @@ snapshots:
   '@esbuild/linux-s390x@0.25.5':
     optional: true
 
-  '@esbuild/linux-x64@0.25.5': {}
+  '@esbuild/linux-x64@0.25.5':
+    optional: true
 
   '@esbuild/netbsd-arm64@0.25.5':
     optional: true
