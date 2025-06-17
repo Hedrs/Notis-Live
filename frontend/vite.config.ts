@@ -1,4 +1,4 @@
-import { build, defineConfig, optimizeDeps } from 'vite';
+import { defineConfig, optimizeDeps } from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import vike from 'vike/plugin';
