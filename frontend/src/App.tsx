@@ -1,5 +1,5 @@
 import React from 'react';
 
-export function App({ children }: { children: React.ReactNode }) {
+export default function App({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

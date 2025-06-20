@@ -1,27 +1,16 @@
-import { defineConfig, optimizeDeps } from 'vite';
+import { build, defineConfig, optimizeDeps } from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import vike from 'vike/plugin';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Notis-Live/',
   optimizeDeps: {
     include: ['react', 'react-dom'], // Предварительная оптимизация зависимостей
   },
   build: {
-    minify: 'esbuild', // Используем esbuild для минимизации
-    rollupOptions: {
-      output: {
-        manualChunks(id) {
-          if (id.includes('node_modules')) {
-            return 'vendor';
-          }
-          if (id.includes('/pages/')) {
-            return 'pages';
-          }
-        },
-      },
-    },
+    chunkSizeWarningLimit: 2000,
   },
   plugins: [tailwindcss(), react(), vike({ prerender: true })],
 });
