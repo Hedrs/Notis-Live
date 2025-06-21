@@ -29,7 +29,7 @@ function Main() {
         <button onClick={() => toggleBlock('main')} className={styles.point}>
           <span className="flex items-center gap-1">
             <Arrow newClass={openedBlocks['main']} />
-            Main: - 26.27%
+            Main: - 27.81%
           </span>
         </button>
       </div>
