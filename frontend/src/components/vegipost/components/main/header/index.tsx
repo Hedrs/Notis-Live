@@ -38,7 +38,7 @@ export function Header() {
         <button onClick={() => toggleBlock('header')} className={styles.point}>
           <span className="flex items-center gap-1">
             <Arrow newClass={openedBlocks['header']} />
-            Header: - 56,86%
+            Header: - 64%
           </span>
         </button>
       </div>

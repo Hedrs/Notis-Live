@@ -60,7 +60,10 @@ function Page() {
                       <span>Changed:</span>
                     </div>
                     <div className={styles.taskChanged}>
-                      <span className="block"> - The Prophet project has been added</span>
+                      <span className="block">
+                        {' '}
+                        - Added categories and top products on the main page + minor changes
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -79,7 +82,11 @@ function Page() {
                       <span>Changed:</span>
                     </div>
                     <div className={styles.taskChanged}>
-                      <span className="block"> - The Prophet project has been added</span>
+                      <span className="block">
+                        {' '}
+                        - Added categories and top products on the
+                        <br /> main page + minor changes
+                      </span>
                     </div>
                   </div>
                 </div>

@@ -36,7 +36,7 @@ function Favorites() {
         <button onClick={() => toggleBlock('favorites')} className={styles.point}>
           <span className="flex items-center gap-1">
             <Arrow newClass={openedBlocks['favorites']} />
-            Favorites: - 50%
+            Favorites: - 100%
           </span>
         </button>
       </div>
@@ -64,7 +64,7 @@ function Favorites() {
             <span className="opacity-0">------</span>
             <span className="opacity-15"> | </span>
             <button className={styles.point}>
-              <span className="ml-[25px]">URL on Profile - 0%</span>
+              <span className="ml-[25px]">URL on Profile - 100%</span>
             </button>
           </div>
           <div className="flex">
@@ -114,7 +114,7 @@ function Favorites() {
             <span className="opacity-0">------</span>
             <span className="opacity-15"> | </span>
             <button className={styles.point}>
-              <span className="ml-[25px]">Style - 0%</span>
+              <span className="ml-[25px]">Style - 100%</span>
             </button>
           </div>
           <div className="flex">
