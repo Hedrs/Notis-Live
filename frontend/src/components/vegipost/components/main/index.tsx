@@ -29,7 +29,7 @@ function Main() {
         <button onClick={() => toggleBlock('main')} className={styles.point}>
           <span className="flex items-center gap-1">
             <Arrow newClass={openedBlocks['main']} />
-            Main: - 54%
+            Main: - 58,2%
           </span>
         </button>
       </div>
@@ -220,7 +220,7 @@ function Main() {
             <span className="opacity-0">------</span>
             <span className="opacity-15"> | </span>
             <button className={styles.point}>
-              <span className="ml-[25px]">List Cards - 50%</span>
+              <span className="ml-[25px]">List Cards - 75%</span>
             </button>
           </div>
           <div className="flex">

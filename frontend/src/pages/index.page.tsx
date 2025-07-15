@@ -60,10 +60,7 @@ function Page() {
                       <span>Changed:</span>
                     </div>
                     <div className={styles.taskChanged}>
-                      <span className="block">
-                        {' '}
-                        - Added categories and top products on the main page + minor changes
-                      </span>
+                      <span className="block"> - Added card styles for the main page (not completely yet)</span>
                     </div>
                   </div>
                 </div>
@@ -84,7 +81,7 @@ function Page() {
                     <div className={styles.taskChanged}>
                       <span className="block">
                         {' '}
-                        - Added categories and top products on the
+                        - Added card styles for the main page (not completely yet)
                         <br /> main page + minor changes
                       </span>
                     </div>
