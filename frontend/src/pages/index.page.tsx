@@ -12,6 +12,7 @@ import VideoChat from '../components/videoChat/index';
 import ArmWrestling from '../components/armWrestling/index';
 import Notis from '../components/notis';
 import Vegipost from '../components/vegipost';
+import BetweenWorlds from '../components/betweenWorlds';
 
 function Page() {
   const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 0);
@@ -60,7 +61,7 @@ function Page() {
                       <span>Changed:</span>
                     </div>
                     <div className={styles.taskChanged}>
-                      <span className="block"> - Added card styles for the main page (not completely yet)</span>
+                      <span className="block"> - Added a new project Between Worlds</span>
                     </div>
                   </div>
                 </div>
@@ -79,11 +80,7 @@ function Page() {
                       <span>Changed:</span>
                     </div>
                     <div className={styles.taskChanged}>
-                      <span className="block">
-                        {' '}
-                        - Added card styles for the main page (not completely yet)
-                        <br /> main page + minor changes
-                      </span>
+                      <span className="block"> - Added a new project Between Worlds</span>
                     </div>
                   </div>
                 </div>
@@ -103,6 +100,7 @@ function Page() {
             <ArmWrestling />
             <VideoChat />
             <Prophet />
+            <BetweenWorlds />
           </div>
           <div className={styles.supportBlockAndDonation}>
             <div className="flex justify-end">
