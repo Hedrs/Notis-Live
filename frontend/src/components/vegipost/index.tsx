@@ -29,7 +29,7 @@ function Vegipost() {
         <button onClick={() => toggleBlock('vegipost')} className={styles.point}>
           <span className="flex items-center gap-1">
             <Arrow newClass={openedBlocks['vegipost']} />
-            Web site VEGIPOST on 13.32%
+            Web site VEGIPOST on 17.31%
           </span>
         </button>
       </div>

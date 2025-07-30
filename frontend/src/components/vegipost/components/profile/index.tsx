@@ -32,7 +32,7 @@ function Profile() {
         <button onClick={() => toggleBlock('profile')} className={styles.point}>
           <span className="flex items-center gap-1">
             <Arrow newClass={openedBlocks['profile']} />
-            Profile: - 8.4%
+            Profile: - 28.35%
           </span>
         </button>
       </div>
@@ -54,7 +54,7 @@ function Profile() {
             <button onClick={() => toggleBlock('personalData')} className={styles.point}>
               <span className="flex items-center gap-1">
                 <Arrow newClass={openedBlocks['personalData']} />
-                Personal Data: - 33.7%
+                Personal Data: - 63.4%
               </span>
             </button>
           </div>
@@ -78,7 +78,7 @@ function Profile() {
                 <span className="opacity-0">------</span>
                 <span className="opacity-15"> | </span>
                 <button className={styles.point}>
-                  <span className="ml-[25px]">Main Style - 33%</span>
+                  <span className="ml-[25px]">Main Style - 100%</span>
                 </button>
               </div>
               <div className="flex">
@@ -141,7 +141,7 @@ function Profile() {
                 <span className="opacity-0">------</span>
                 <span className="opacity-15"> | </span>
                 <button className={styles.point}>
-                  <span className="ml-[25px]">Algorithm input - 33%</span>
+                  <span className="ml-[25px]">Algorithm input - 100%</span>
                 </button>
               </div>
               <div className="flex">
@@ -162,7 +162,7 @@ function Profile() {
                 <span className="opacity-0">------</span>
                 <span className="opacity-15"> | </span>
                 <button className={styles.point}>
-                  <span className="ml-[25px]">Algorithm save - 50%</span>
+                  <span className="ml-[25px]">Algorithm save - 100%</span>
                 </button>
               </div>
               <div className="flex">
@@ -357,7 +357,7 @@ function Profile() {
             <button onClick={() => toggleBlock('addingAds')} className={styles.point}>
               <span className="flex items-center gap-1">
                 <Arrow newClass={openedBlocks['addingAds']} />
-                Adding ads: - 0%
+                Adding ads: - 50%
               </span>
             </button>
           </div>
@@ -381,7 +381,7 @@ function Profile() {
                 <span className="opacity-0">------</span>
                 <span className="opacity-15"> | </span>
                 <button className={styles.point}>
-                  <span className="ml-[25px]">Algorithm basic data - 0%</span>
+                  <span className="ml-[25px]">Algorithm basic data - 100%</span>
                 </button>
               </div>
               <div className="flex">
@@ -423,7 +423,7 @@ function Profile() {
                 <span className="opacity-0">------</span>
                 <span className="opacity-15"> | </span>
                 <button className={styles.point}>
-                  <span className="ml-[25px]">Algorithm product information - 0%</span>
+                  <span className="ml-[25px]">Algorithm product information - 100%</span>
                 </button>
               </div>
               <div className="flex">
@@ -465,7 +465,7 @@ function Profile() {
                 <span className="opacity-0">------</span>
                 <span className="opacity-15"> | </span>
                 <button className={styles.point}>
-                  <span className="ml-[25px]">Style basic data - 0%</span>
+                  <span className="ml-[25px]">Style basic data - 100%</span>
                 </button>
               </div>
               <div className="flex">
@@ -507,7 +507,7 @@ function Profile() {
                 <span className="opacity-0">------</span>
                 <span className="opacity-15"> | </span>
                 <button className={styles.point}>
-                  <span className="ml-[25px]">Style product information - 0%</span>
+                  <span className="ml-[25px]">Style product information - 100%</span>
                 </button>
               </div>
               <div className="flex">
