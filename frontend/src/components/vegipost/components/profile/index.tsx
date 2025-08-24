@@ -32,7 +32,7 @@ function Profile() {
         <button onClick={() => toggleBlock('profile')} className={styles.point}>
           <span className="flex items-center gap-1">
             <Arrow newClass={openedBlocks['profile']} />
-            Profile: - 28.35%
+            Profile: - 67.725%
           </span>
         </button>
       </div>
@@ -54,7 +54,7 @@ function Profile() {
             <button onClick={() => toggleBlock('personalData')} className={styles.point}>
               <span className="flex items-center gap-1">
                 <Arrow newClass={openedBlocks['personalData']} />
-                Personal Data: - 63.4%
+                Personal Data: - 83.4%
               </span>
             </button>
           </div>
@@ -99,7 +99,7 @@ function Profile() {
                 <span className="opacity-0">------</span>
                 <span className="opacity-15"> | </span>
                 <button className={styles.point}>
-                  <span className="ml-[25px]">Algorithm image - 80%</span>
+                  <span className="ml-[25px]">Algorithm image - 100%</span>
                 </button>
               </div>
               <div className="flex">
@@ -183,7 +183,7 @@ function Profile() {
                 <span className="opacity-0">------</span>
                 <span className="opacity-15"> | </span>
                 <button className={styles.point}>
-                  <span className="ml-[25px]">Style verify - 0%</span>
+                  <span className="ml-[25px]">Style verify - 100%</span>
                 </button>
               </div>
             </>
@@ -204,7 +204,7 @@ function Profile() {
             <button onClick={() => toggleBlock('myAds')} className={styles.point}>
               <span className="flex items-center gap-1">
                 <Arrow newClass={openedBlocks['myAds']} />
-                My Ads: - 0%
+                My Ads: - 100%
               </span>
             </button>
           </div>
@@ -357,7 +357,7 @@ function Profile() {
             <button onClick={() => toggleBlock('addingAds')} className={styles.point}>
               <span className="flex items-center gap-1">
                 <Arrow newClass={openedBlocks['addingAds']} />
-                Adding ads: - 50%
+                Adding ads: - 87.5%
               </span>
             </button>
           </div>

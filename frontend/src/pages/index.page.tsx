@@ -13,6 +13,7 @@ import ArmWrestling from '../components/armWrestling/index';
 import Notis from '../components/notis';
 import Vegipost from '../components/vegipost';
 import BetweenWorlds from '../components/betweenWorlds';
+import EvolutionNumberTwo from '../components/evolutionNumberTwo';
 
 function Page() {
   const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 0);
@@ -61,7 +62,11 @@ function Page() {
                       <span>Changed:</span>
                     </div>
                     <div className={styles.taskChanged}>
-                      <span className="block"> - Added a new project Between Worlds</span>
+                      <span className="block">
+                        {' '}
+                        - Vegipost: 1) An algorithm for creating a card has been created <br /> 2) New cards appear in
+                        my ads <br />- BW: A portal has been created, and a stage has been prepared
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -80,7 +85,11 @@ function Page() {
                       <span>Changed:</span>
                     </div>
                     <div className={styles.taskChanged}>
-                      <span className="block"> - Added a new project Between Worlds</span>
+                      <span className="block">
+                        {' '}
+                        - Vegipost: 1) An algorithm for creating a card has been created <br /> 2) New cards appear in
+                        my ads <br />- BW: A portal has been created, and a stage has been prepared
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -101,6 +110,7 @@ function Page() {
             <VideoChat />
             <Prophet />
             <BetweenWorlds />
+            <EvolutionNumberTwo />
           </div>
           <div className={styles.supportBlockAndDonation}>
             <div className="flex justify-end">

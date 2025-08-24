@@ -28,7 +28,7 @@ function BetweenWorlds() {
         <button onClick={() => toggleBlock('betweenWorlds')} className={styles.point}>
           <span className="flex items-center gap-1">
             <Arrow newClass={openedBlocks['betweenWorlds']} />
-            Between Worlds: - 0%
+            Between Worlds: - 3.3%
           </span>
         </button>
       </div>
@@ -46,7 +46,7 @@ function BetweenWorlds() {
             <button onClick={() => toggleBlock('sceneOne')} className={styles.point}>
               <span className="flex items-center gap-1">
                 <Arrow newClass={openedBlocks['sceneOne']} />
-                Scene One (Side Portal): - 0%
+                Scene One (Side Portal): - 10%
               </span>
             </button>
           </div>
@@ -66,7 +66,7 @@ function BetweenWorlds() {
                 <span className="opacity-0">------</span>
                 <span className="opacity-15"> | </span>
                 <button className={styles.point}>
-                  <span className="ml-[25px]">Creating a portal line - 0%</span>
+                  <span className="ml-[25px]">Creating a portal line - 100%</span>
                 </button>
               </div>
               <div className="flex">
@@ -149,7 +149,7 @@ function BetweenWorlds() {
                 <span className="opacity-0">------</span>
                 <span className="opacity-15"> | </span>
                 <button className={styles.point}>
-                  <span className="ml-[25px]">Animation of the boss - 0%</span>
+                  <span className="ml-[25px]">Animation of the ejection of fragments and the Persian - 0%</span>
                 </button>
               </div>
               <div className="flex">
