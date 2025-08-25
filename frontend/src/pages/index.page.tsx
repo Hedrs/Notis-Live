@@ -62,11 +62,7 @@ function Page() {
                       <span>Changed:</span>
                     </div>
                     <div className={styles.taskChanged}>
-                      <span className="block">
-                        {' '}
-                        - Vegipost: 1) An algorithm for creating a card has been created <br /> 2) New cards appear in
-                        my ads <br />- BW: A portal has been created, and a stage has been prepared
-                      </span>
+                      <span className="block"> Corrected the fields</span>
                     </div>
                   </div>
                 </div>
@@ -85,11 +81,7 @@ function Page() {
                       <span>Changed:</span>
                     </div>
                     <div className={styles.taskChanged}>
-                      <span className="block">
-                        {' '}
-                        - Vegipost: 1) An algorithm for creating a card has been created <br /> 2) New cards appear in
-                        my ads <br />- BW: A portal has been created, and a stage has been prepared
-                      </span>
+                      <span className="block"> Corrected the fields</span>
                     </div>
                   </div>
                 </div>

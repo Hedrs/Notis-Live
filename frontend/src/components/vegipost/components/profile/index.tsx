@@ -228,7 +228,7 @@ function Profile() {
                 <span className="opacity-0">------</span>
                 <span className="opacity-15"> | </span>
                 <button className={styles.point}>
-                  <span className="ml-[25px]">Algorithm - 0%</span>
+                  <span className="ml-[25px]">Algorithm - 100%</span>
                 </button>
               </div>
               <div className="flex">
@@ -249,7 +249,7 @@ function Profile() {
                 <span className="opacity-0">------</span>
                 <span className="opacity-15"> | </span>
                 <button className={styles.point}>
-                  <span className="ml-[25px]">Style - 0%</span>
+                  <span className="ml-[25px]">Style - 100%</span>
                 </button>
               </div>
               <div className="flex">
@@ -270,7 +270,7 @@ function Profile() {
                 <span className="opacity-0">------</span>
                 <span className="opacity-15"> | </span>
                 <button className={styles.point}>
-                  <span className="ml-[25px]">Layout - 0%</span>
+                  <span className="ml-[25px]">Layout - 100%</span>
                 </button>
               </div>
             </>
@@ -402,7 +402,7 @@ function Profile() {
                 <span className="opacity-0">------</span>
                 <span className="opacity-15"> | </span>
                 <button className={styles.point}>
-                  <span className="ml-[25px]">Algorithm type of delivery - 0%</span>
+                  <span className="ml-[25px]">Algorithm type of delivery - 100%</span>
                 </button>
               </div>
               <div className="flex">
@@ -486,7 +486,7 @@ function Profile() {
                 <span className="opacity-0">------</span>
                 <span className="opacity-15"> | </span>
                 <button className={styles.point}>
-                  <span className="ml-[25px]">Style type of delivery - 0%</span>
+                  <span className="ml-[25px]">Style type of delivery - 100%</span>
                 </button>
               </div>
               <div className="flex">
